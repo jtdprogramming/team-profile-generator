@@ -19,5 +19,5 @@ test("get manager office number", () => {
 test("get manager role", () => {
   const manager = new Manager("Jim", "007", "emailaddress@email.com", "999");
 
-  expect(manager.getRole()).toBe("Manager");
+expect(manager.getRole()).toBe("Manager");
 });
